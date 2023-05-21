@@ -53,7 +53,7 @@ body{
     font-size: 1rem;
     letter-spacing: 3px;
     line-height: 50px;
-    transition: all .3s;
+    transition: all .2s;
     text-decoration: none;
     text-transform: uppercase;
     padding-left: 10px;
@@ -68,12 +68,13 @@ body{
     padding-bottom: 10px;
 }
 
+/*Fin zona del Header*/
+
+/*Medidas de los Sevtion*/
 .height-total{
     height: 100vh;
     position: relative;
 }
-
-/*Fin zona del Header*/
 
 /*Inicia zona de la portada*/
 
@@ -297,6 +298,10 @@ body{
 
 .contact{
     background-color: #c4c0c0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 80%;
 }
 
 .contact-form{
@@ -334,10 +339,10 @@ body{
 
 .contact-input-text{
     background: linear-gradient(to bottom, #ffffff, rgba(70, 203, 253, 0.3));
-    font-size: 18px;
-    height: 40px;
     border: 0;
     border-bottom: 3px solid rgba(70, 203, 253, 0.6);
+    font-size: 18px;
+    height: 40px;
     padding: 0 10px;
     width: 100%;
 }
@@ -356,7 +361,7 @@ textarea{
 }
 
 .contact-colum textarea{
-    background: linear-gradient(to bottom, #ffffff, rgb(216, 239, 240));
+    background: linear-gradient(to bottom, #ffffff, rgb(70, 203, 253, 0.3));
     border: none;
     border-bottom: 3px solid rgba(70, 203, 253, 0.6);
     height: 150px;
@@ -365,10 +370,12 @@ textarea{
 
 .boton-form{
     background: linear-gradient(to bottom, #ffffff, rgba(70, 203, 253, 0.3));
+    color: #606060;
 }
 
 .boton-form:hover{
     color: #606060;
+    font-size: 15px;
 }
 
 /*Fin Zona Contact*/
